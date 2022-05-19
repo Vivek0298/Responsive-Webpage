@@ -1,0 +1,86 @@
+[1:46 am, 20/05/2022] Satyam Kumar: <!DOCTYPE html>
+<html>
+
+<script>
+    function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "data.txt", true);
+  xhttp.send();
+}
+</script>
+<body>
+
+<div id="demo">
+  <h2>Let AJAX change this text</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+</body>
+</html>
+[1:51 am, 20/05/2022] Satyam Kumar: <!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" 
+         href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+   
+   <body>
+      <div data-role = "page" id = "page1">
+         <div data-role = "header">
+            <h2>Header</h2>
+         </div>
+         
+         <div role = "main" class = "ui-content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p> For more information <a href = "#page2">clic…
+[2:42 am, 20/05/2022] Satyam Kumar: <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+     <nav>
+         <label class="logo">FOODHUB</label>
+         <ul>
+             <li><a href="#">HOME</a></li>
+             <li><a href="#">DELIVERY</a></li>
+             <li><a href="#">MENU</a></li>
+             <li><a href="#">About Us</a></li>
+             <li><a href="#">Contact</a></li>
+         </ul>
+     </nav>
+
+
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum laboriosam ea consequuntur, provident iure perferendis eaque. Dolore officia a quibusdam nulla dolorem suscipit, nam eius ipsa, aut non sunt?</p>
+
+    <img src="food.jpg" alt="">
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
